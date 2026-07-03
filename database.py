@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from models.models import Base
 
-DATABASE_URL = "mysql+pymysql://pfe_user:pfe123@localhost/pfe_gestion_tests"
+DATABASE_URL = "database URL"
 
 engine = create_engine(DATABASE_URL)
 
